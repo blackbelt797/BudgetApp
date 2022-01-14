@@ -1,0 +1,101 @@
+/* Create color Variables */
+body {
+  background-color: #48515E;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav {
+  height: 100px;
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .user-account {
+  padding-left: 40px;
+}
+
+nav .login-container {
+  padding-right: 40px;
+}
+
+.main-bills-container {
+  max-width: 471px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50px 50px 50px 50px;
+      grid-template-rows: 50px 50px 50px 50px;
+  background-color: #262D38;
+  border: 1px solid aliceblue;
+  margin-top: 20px;
+}
+
+.bills-nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #262D38;
+}
+
+.bills-nav-container > h2 {
+  color: white;
+}
+
+.bill-icon {
+  padding-left: 5px;
+  padding-right: 10px;
+  max-width: 20px;
+  max-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bill-input-wrapper-container {
+  border: 1px solid purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bill-input-container {
+  min-width: 450px;
+  margin: 5px;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input {
+  background: transparent;
+  border: 1px solid #08FAFA;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
