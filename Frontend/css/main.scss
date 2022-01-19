@@ -27,22 +27,25 @@ nav .login-container {
 	padding-right: 40px;
 	
 }
-
+span {
+	color: aliceblue;
+}
 
 
 .main-bills-container {
-	max-width: 471px;
+	max-width: 428px;
 	display: grid;
-	grid-template-rows: 50px 50px 50px 50px;
+	grid-template-rows: repeat(6, 1fr);
 	background-color: #262D38;
-	border: 1px solid aliceblue;
 	margin-top: 20px;
+	border-radius: 5%;
+	
 }
 
 .bills-nav-container {
 	display: flex;
 	justify-content: center;
-	background-color: #262D38;
+	//background-color: #262D38;
 	//border: 1px solid aqua;
 }
 
@@ -50,39 +53,86 @@ nav .login-container {
 	color: white;
 }
 
-.bill-icon {
-	padding-left: 5px;
-	padding-right: 10px;
-	max-width: 20px;
-	max-height: 20px;
-	//border: 1px solid orchid;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+
+
 
 .bill-input-wrapper-container {
-	border: 1px solid purple;
+	border-bottom: 1px solid aliceblue;
 	display: flex;
 	justify-content: center;
 	
 }
+
+.bill-input-header {
+	min-width: 400px;
+	color: aliceblue;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	align-items: center;
+	text-align: center;
+
+}
 .bill-input-container {
-	min-width: 450px;
-	margin: 5px;
-	 border: 1px solid red;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	align-items: center;
+	text-align: center;
+
+}
+
+.bill-input-container > input {
+	background: none;
+	border: none;
+	color: aliceblue;
+	max-width: 6rem;
+}
+
+.bill-input-container > input:focus {
+	outline: #08FAFA;
+}
+
+
+
+.bill-input-container > input:hover {
+	background-color: #48515E;
+}
+
+
+.bill-description-input {
+	text-align: left;
+	width: 7rem;
+}
+
+.bill-amount-input {
+	text-align: right;
+	width: 7rem;
+}
+
+
+.btn-add-new-bill-item {
+	max-width: 100px;
+	background: transparent;
+	color: aliceblue;
+	border: none;
+	
+}
+.btn-add-new-bill-item:hover {
+	color: #08FAFA;
+}
+
+
+.footer-bill-input-wrapper-container {
+	display: flex;
+	justify-content: center;
+}
+
+.bill-footer-container {
+	min-width: 400px;
+
+	padding: .65rem;
+	//border: 1px solid red;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
-	
-
 }
 
-
-input {
-	
-	background: transparent;
-	border: 1px solid #08FAFA;
-	color: white;
-}

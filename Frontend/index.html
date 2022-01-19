@@ -24,57 +24,83 @@
 		</ul>
 
 	</nav>
+
+
 	<div class="main-bills-container">
 		<div class="bills-nav-container">
 			<h2>Bills Due</h2>
-
+		</div>
+		<div class="bill-input-wrapper-container">
+			<div class="bill-input-header">
+				<p>Description</p>
+				<p>Budgeted</p>
+				<p>Actual</p>
+				<p>Paid</p>
+			</div>
 		</div>
 		<div class="bill-input-wrapper-container">
 			<div class="bill-input-container">
-				<div class="bill-icon">🏠</div>
-
-				<input type="text" class="bill-description-input">
-				<input type="text" class="bill-amount-input">
-
-
+				<input type="text" class="bill-description-input" maxlength="64"
+					value="Bill Description">
+				<input type="text" class="bill-amount-input" value="$0.00">
+				<input type="text" class="bill-amount-input" value="$0.00">
 				<input type="checkbox">
-
+			</div>
+		</div>
+		<div class="bill-input-wrapper-container">
+			<div class="bill-input-container">
+				<input type="text" class="bill-description-input" maxlength="64"
+					value="Bill Description">
+				<input type="text" class="bill-amount-input" value="$0.00">
+				<input type="text" class="bill-amount-input" value="$0.00">
+				<input type="checkbox">
 
 			</div>
 		</div>
 		<div class="bill-input-wrapper-container">
 			<div class="bill-input-container">
-
-				<div class="bill-icon">🏠</div>
-
-				<input type="text" class="bill-description-input">
-				<input type="text" class="bill-amount-input">
-
-				<input type="checkbox">
-
-			</div>
-		</div>
-		<div class="bill-input-wrapper-container">
-			<div class="bill-input-container">
-
-				<div class="bill-icon">🏠</div>
-
-				<input type="text" class="bill-description-input">
-				<input type="text" class="bill-amount-input">
-
-
+				<input type="text" class="bill-description-input" maxlength="64"
+					value="Bill Description">
+				<input type="text" class="bill-amount-input" value="$0.00">
+				<input type="text" class="bill-amount-input" value="$0.00">
 				<input type="checkbox">
 			</div>
 		</div>
+		<div class="footer-bill-input-wrapper-container">
+			<div class="bill-footer-container">
+				<button class="btn-add-new-bill-item">Add Bill</button>
+				<strong>
+					<span class="bill-budgeted-total" data-text="$5,400.00">
+						<span class="money-symbole">$</span>
+						<span class="money-integer">5,400</span>
+						<span class="money-decimal">.</span>
+						<span class="money-fractional">00</span>
+					</span>
+				</strong>
+				<strong>
+					<span class="bill-actual-total" data-text="$5,400.00">
+						<span class="money-symbole">$</span>
+						<span class="money-integer">6,000</span>
+						<span class="money-decimal">.</span>
+						<span class="money-fractional">00</span>
+					</span>
+
+				</strong>
+
+			</div>
+		</div>
+
+
 	</div>
 
-	</div>
 
 
-	<button id="link-button">Link Account</button>
+
+	<!-- <button id="link-button">Link Account</button>
+
 
 	<script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
-
+ -->
 
 
 
